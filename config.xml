@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.phonegap.casticoro" version="2.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Casti Coro</name>
+    <description>
+        Cancionero para celebraciones de Casti Coro
+    </description>
+    <author email="luisgentil@yahoo.es" href="https://pilgrim.neocities.org/coros/castilleja/www/index.html">
+        Luis Gentil
+    </author>
+    <platform name="android">    
+      <icon src="icon.png" />
+      <icon src="icon.png"   gap:platform="android"    gap:qualifier="ldpi" />
+      <icon src="icon.png"   gap:platform="android"    gap:qualifier="mdpi" />
+      <icon src="icon.png"   gap:platform="android"    gap:qualifier="hdpi" />
+      <icon src="icon.png"   gap:platform="android"    gap:qualifier="xhdpi" />
+    </platform>
+    <content src="index.html" />
+    <access origin="*" />
+    <plugin name="cordova-plugin-file" source="npm" spec="~4.1.1" />
+    <plugin name="cordova-plugin-whitelist" version="1"/>
+</widget>

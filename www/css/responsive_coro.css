@@ -1,0 +1,130 @@
+@media (min-width: 900px) {
+
+/* ====== Al revés: añade CSS para PC, no para el movil ====== */
+
+body {
+    color: blue;
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.15em;
+}
+
+div {
+
+}
+
+/*div:hover {
+    background-color: rgb(224,224,224);
+}*/
+
+.titulo {
+    background-size: auto;
+}
+
+.titulo img {
+
+}
+
+.titulo h1 {
+
+}
+
+
+.boton_menu {
+
+}
+
+.blanco {
+
+}
+
+.rojo_trans {
+
+}
+
+.rojo {
+
+}
+
+.footer {
+
+}
+
+.botonera_dos {
+ /*   width: 25%;*/
+}
+
+.botonera_oculta {
+}
+
+.botonera_dos p {
+
+}
+
+.botones {
+
+}
+
+.botones:hover {
+
+}
+
+.botones:active {
+}
+
+.cinco {
+
+}
+
+/*.cinco:hover {
+    background-color: silver;
+}*/
+
+.cinco h5 {
+
+}
+.cinco pre {
+    font-family: 'Inconsolata', monospace;
+}
+
+
+.cinco p {
+    padding-left: 300px;
+}
+
+p.acordes_on {
+
+}
+
+p.acordes_off  {
+
+}
+
+.letras {
+    font-size: 1em;
+}
+
+.seis {
+
+}
+
+.instrucciones {
+    display: inline-block;
+    text-align: center;
+}
+
+.instrucciones_oculta {
+    display: none;
+}
+
+.instrucciones_bloques {
+    width: 20%;
+    height: 150px;
+}
+
+
+.instrucciones_bloques_txt {
+    position: relative;
+    top: 25px;
+}
+}
+
