@@ -16,4 +16,6 @@
     </platform>
     <content src="index.html" />
     <access origin="*" />
+    <plugin name="cordova-plugin-file" source="npm" spec="~4.1.1" />
+    <plugin name="cordova-plugin-whitelist" version="1"/>
 </widget>
